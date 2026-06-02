@@ -1,0 +1,57 @@
+# =============================================
+#  .gitignore for ASP.NET Web Forms + Visual Studio
+# =============================================
+
+# ── NuGet Packages ────────────────────────────
+packages/
+*.nupkg
+*.snupkg
+
+# ── Build Output ──────────────────────────────
+bin/
+obj/
+out/
+build/
+publish/
+
+# ── Visual Studio ─────────────────────────────
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# ── Temporary & Cache Files ───────────────────
+*.cache
+*.tmp
+*.temp
+_ReSharper*/
+*.DotSettings.user
+
+# ── Published Web Output ──────────────────────
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# ── IIS / Local Web Server ────────────────────
+*.applicationhost.config
+.localhistory/
+
+# ── OS Files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
